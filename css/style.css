@@ -27,7 +27,7 @@
     
     .container .left-area {
         width: 20%;
-        background: #000;
+        background: #20202A;
     }
     .left-area .profile {
         width: 100%;
@@ -120,13 +120,12 @@
         background: #00000080;
     }
     .container .middle-area .top-middle-section .top-middle-sec-pic-opacity h1 {
-            font-size: 52px;
-            font-weight: 800;
-        }
+        font-size: 52px;
+        font-weight: 800;
     }
     /* ========right area======= */
     
     .container .right-area {
         width: 15%;
-        background: #000;
+        background: #20202A;
     }
