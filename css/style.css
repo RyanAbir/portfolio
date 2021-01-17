@@ -1,0 +1,132 @@
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background: #191923;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        color: #fff;
+    }
+    .container-box {
+        width: 1440px;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .container {
+        width: 100%;
+    }
+    .container .left-area, .container .right-area, .container .middle-area {
+        height: 720px;
+        background: #1E1E28;
+        float: left;
+    }
+    /* ========left area======= */
+    
+    .container .left-area {
+        width: 20%;
+        background: #000;
+    }
+    .left-area .profile {
+        width: 100%;
+        height: 240px;
+        background: #24242F;
+        padding: 30px;
+    }
+    .left-area .profile .profile-avatar {
+        margin: 0 70px 15px;
+    }
+    .left-area .profile .profile-avatar img {
+        border-radius: 50%;
+        display: inline-block;
+        margin-bottom: -15px;
+    }
+    .left-area .profile h5 {
+        text-align: center;
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    .left-area .profile h5 a {
+        text-decoration: none;
+        color: white;
+    }
+    .left-area .profile .profile-text {
+        font-size: 13px;
+        color: #7a7a7a;
+        text-align: center;
+    }
+    .left-area .profile .profile-pic {
+        width: 100%;
+    }
+    /* ========middle area======= */
+    
+    .container .middle-area {
+        width: 65%;
+    }
+    .container .middle-area .top-middle-section {
+        width: 100%;
+        height: 420px;
+        margin-top: 0px;
+        background: #1E1E28;
+        background-image: url("../img/section.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .container .middle-area .top-middle-section .middle-sec-opacity {
+        width: 100%;
+        height: 420px;
+        padding-top: 30px;
+        background-image: linear-gradient(#1e1e28d8, #1E1E28);
+    }
+    .container .middle-area .top-middle-section .top-middle-sec-color {
+        width: 780px;
+        height: 390px;
+        margin: auto;
+        background: #1E1E28;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    .container .middle-area .top-middle-section .top-middle-sec-pic {
+        width: 875px;
+        height: 360px;
+        margin: auto;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: #000000;
+        background-image: url("../img/section.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .container .middle-area .top-middle-section .top-middle-sec-pic-opacity {
+        width: 875px;
+        height: 360px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 60px;
+        margin: auto;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: #00000080;
+    }
+    .container .middle-area .top-middle-section .top-middle-sec-pic-opacity h1 {
+            font-size: 52px;
+            font-weight: 800;
+        }
+    }
+    /* ========right area======= */
+    
+    .container .right-area {
+        width: 15%;
+        background: #000;
+    }
