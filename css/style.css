@@ -162,6 +162,7 @@ h1, h2, h3, h4, h5, h6 {
 .container .right-area {
     width: 15%;
     background: #20202A;
+    position: relative;
 }
 
 /* ========nav section======== */
